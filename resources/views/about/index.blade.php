@@ -54,7 +54,7 @@
 
             <div class="row">
                 <div class="col-xs-12 col-sm-9 col-md-7 col-lg-5 ml-auto mr-auto">
-                    <button class="btn btn-primary mt-2" type="button">Join now</button>
+                    <a href="/contact" class="btn btn-primary mt-2">Join now</a>
                 </div>
             </div>
         </div>

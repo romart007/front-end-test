@@ -21,7 +21,7 @@
                 <!-- Input -->
                 <div class="js-form-message mb-3">
                     <div class="js-focus-state input-group input-group form">
-                        <input type="text" class="form-control form__input" name="username" required=""
+                        <input required="" type="text" class="form-control form__input" name="username" required=""
                             placeholder="Enter your username" aria-label="Enter your username">
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                 <!-- Input -->
                 <div class="js-form-message mb-3">
                     <div class="js-focus-state input-group input-group form">
-                        <input type="email" class="form-control form__input" name="email" required=""
+                        <input required  type="email" class="form-control form__input" name="email" required=""
                             placeholder="Enter your email address" aria-label="Enter your email address">
                     </div>
                 </div>
