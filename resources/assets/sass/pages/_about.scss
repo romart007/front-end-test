@@ -1,0 +1,38 @@
+#who-we-are {
+    position: relative;
+    background: url(../img/about-hero.jpg) no-repeat;
+    @extend .banner;
+    &:before {
+        top: 0;
+        display: block;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .3);
+    }
+    h1 {
+        color: $white;
+        position: relative;
+        z-index: 2;
+        text-transform: uppercase;
+    }
+}
+
+#site-newsletter {
+    background: #f2f2f2;
+}
+
+#values,
+#site-newsletter {
+    padding: 3rem .5rem;
+}
+
+#values {
+    h3 {
+        margin-bottom: 2rem;
+    }
+    img {
+        height: 70px;
+    }
+}
